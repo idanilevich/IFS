@@ -67,3 +67,33 @@ Sys.time()>t1
 Sys.time()-t1
 difftime(Sys.time(),t1,units='days')
 savehistory("~/level14.Rhistory")
+
+
+
+
+swirl()
+?plot
+plot(cars,xlab=speed,ylab=dist)
+plot(cars$speed,cars$dist,xlab=speed,ylab=dist)
+plot(x=cars$speed,y=cars$dist)
+plot(x=cars$dist,y=cars$speed)
+plot(x=cars$dist,y=cars$speed,xlab="Speed")
+plot(x=cars$speed,y=cars$dist,xlab="Speed")
+plot(x=cars$speed,y=cars$dist,ylab="Stopping Distance")
+plot(x=cars$speed,y=cars$dist,xlab="Speed",ylab="Stopping Distance")
+plot(x=cars$speed,y=cars$dist,xlab="Speed",ylab="Stopping Distance",sub="My Plot")
+plot(x=cars$speed,y=cars$dist,xlab="Speed",ylab="Stopping Distance",main="My Plot")
+plot(x=cars$speed,y=cars$dist,main="My Plot")
+plot(cars,main="My Plot")
+plot(cars,sub="My Plot Subtitle")
+plot(cars,col=2)
+plot(cars xlim=c(10,15))
+plot(cars, xlim=c(10,15))
+plot(cars,pch=2)
+mtcars
+data(mtcars)
+?boxplot
+boxplot(mpg ~ cyl,data = mtcars)
+hist(mtcars$mpg)
+play()
+savehistory("~/level14-done.Rhistory")
