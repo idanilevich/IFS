@@ -1,9 +1,4 @@
-install.packages("swirl")
-install.packages("swirl")
-install.packages("RCurl")
-install.packages("lxml2")
-install.packages("RCurl")
-install.packages("swirl")
+#Level 13 and parts of other levels in swirl
 library("swirl")
 swirl()
 5+7
@@ -70,7 +65,7 @@ savehistory("~/level14.Rhistory")
 
 
 
-
+#level 14
 swirl()
 ?plot
 plot(cars,xlab=speed,ylab=dist)
